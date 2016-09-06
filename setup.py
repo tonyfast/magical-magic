@@ -7,11 +7,11 @@ def read(fname):
         return f.read()
 
 setuptools.setup(
-    name="whatever-forever",
-    version="0.1.2",
+    name="magical-magic",
+    version="0.0.1",
     author="Tony Fast",
     author_email="tony.fast@gmail.com",
-    description="prototype whatever in the Jupyter notebook",
+    description="Simple reusable magics.",
     license="BSD-3-Clause",
     keywords="IPython Magic Jupyter",
     url="http://github.com/tonyfast/whatever-forever",
@@ -30,6 +30,6 @@ setuptools.setup(
         "Topic :: Software Development :: Testing",
     ],
     install_requires=[
-        "toolz", "joblib",
+        "IPython",
     ]
 )
