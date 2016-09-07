@@ -69,6 +69,8 @@ An example of a list
 -  🐑 - **bah**
 
 
+--------------
+
 .. code:: python
 
     %%mistune
@@ -86,6 +88,8 @@ An example of a list
     tell us about the length of <code>data</code> is 3.</p>
 
 
+
+--------------
 
 Development
 -----------

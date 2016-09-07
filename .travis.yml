@@ -1,17 +1,14 @@
 language: python
 python: 3.5
-
 install:
-  - pip install -r requirements-dev.txt
-  - python setup.py install
-
+- pip install -r requirements-dev.txt
+- python setup.py install
 script: py.test
-
 deploy:
   provider: pypi
   user: tonyfast
   password:
-    secure: gZ1qnkieOLSbFM15LVqWe3ecbdP/AjxGbPTGy/7ct4C+hmD9i/NRUkCCEDH0v8lak75wZQwUYSAkStEX17V9dtUa0+h8vqTD3Ku6Nr/iwH+uyU8bFoDEwaNncu4PtApUDT5kOuOINdTpFvzFTc6DfnouGzWG+4znvg22aXsBIzXCNmq0Dj/uwI0yOQdTZWQSlXsPAdkH320j6yfnbrTvzv9wPJ5NeNJSaoijTPFsWMwxL7cBeKCf1sQDZIq0UItX/VjK3mEPgPNv6v0Wa60E5jstjhAbpJMaPqxvPj3DFvwFX4mfuSo8k96f/a5dghGhpEW0wmhbMilX8HhJ+ypHnKWkS2slpFW9VueinZfVIt4V/T3/YqCRNMEd5axcKfWYTcrtfTjObvMKBGvhmtQvOoW3VUexX0pKeY/av5Qep09rkoUoAFmixuBIq8KxBlmVrKh80n4Hx+x2CiHQ0WZ7uA0KnZzmU06GMFcqfKaO1lJ0cefCbLgrpK54y+4ut5Ov9gWYGunbU9YcaF6w319s0miHdC++gavYZ5M3vTlW27IojaAHO1dV4dKKSKsXGYU2q4rlOcFApnk5dkcFB4ICG0KymqDoDoAq0JdlC3pB4/0dGZP4S0i9O6aZfWKfPDMVq1ooCBqhr2Dwc/b3kYbQ9kqovo9yV71SlaiYKT/wi4U=
+    secure: EmIhPiD6ALM+QC5m68FY4piCQ8WjRck9DKWubgcqblhevwYYQsOBQpUsUguxQ07NqUIN0JOHcZlLYsCnFySOIDFSp9cdsbzvCOZpkbOOvtLm2mLUQKiruSEdit92IVmSJInFEKCOacWjbwCza6LnOsolebWbn/DCMk93d5l5MLq7kG8eV3PzRDxogUW06fRmd9RQ9vsSsxu0jlhEjRPpvg4Bp0/VXiKbrHEx3Yn5lyJasm22Voi7PiVz7xFpcqiEfjiZwo/4aqsBA99eOHAFOa21f0knSBjVt0jA98uIeHz4R0c59qFeZIrqDSbtfT/EWx0uQxFXtXiPV9Nk5b5TnYoxuaaDQ+yO3GzOuuGvaDooRB1a77tmS0lOzdP8Dg/O/Tia7J7JqZHvbY+Md/KUrit7BkRN88Qn1tykVy+NHq8zUKIxVJHQ1OLJZlICY6SNrUtLljE3BcjZiIn+K/zKgoA3xOzlewzAw7PRvddUbHYnrUlnU091C/ubP3R4gOm8E/SZvZFprAED3tcsZ13wqFguJzY/bmt4RWS0+cB5G0apuhwXpBdLKj20z1qOrzg80ptpaQOlC5KiQW0sTS0xDpNZGGjrdkIWscgCumym3sVlbYb4xLi1HidMQusc93lCgv/J7mNsaseTgSp35NemSHdWSUAnLN4Zpc/Q9BtwJlc=
   on:
     tags: true
     distributions: sdist bdist_wheel
