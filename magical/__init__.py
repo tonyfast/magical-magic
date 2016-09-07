@@ -9,7 +9,7 @@ from magical.recipes import (
     register_yaml_magic
 )
 
-__version__ = "0.0.3"
+__version__ = "0.0.4"
 
 magical
 

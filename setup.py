@@ -8,7 +8,7 @@ def read(fname):
 
 setuptools.setup(
     name="magical-magic",
-    version="0.0.3",
+    version="0.0.4",
     author="Tony Fast",
     author_email="tony.fast@gmail.com",
     description="Simple reusable magics.",
