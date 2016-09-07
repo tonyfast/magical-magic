@@ -14,9 +14,9 @@ setuptools.setup(
     description="Simple reusable magics.",
     license="BSD-3-Clause",
     keywords="IPython Magic Jupyter",
-    url="http://github.com/tonyfast/whatever-forever",
+    url="http://github.com/tonyfast/magical-magic",
     packages=setuptools.find_packages(),
-    long_description=read("README.rst"),
+    long_description=read("readme.rst"),
     classifiers=[
         "Topic :: Utilities",
         "Framework :: IPython",

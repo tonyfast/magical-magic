@@ -6,7 +6,7 @@ tricks:
 # Compile the script and rerun tests.
 - watchdog.tricks.ShellCommandTrick:
     patterns:
-    - "*/whatever/*.ipynb"
+    - "*/magical/*.ipynb"
     ignore_patterns:
         - '*/.~*.ipynb'
         - '*/.ipynb_checkpoints*'

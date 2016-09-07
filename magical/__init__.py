@@ -1,14 +1,19 @@
-
 # coding: utf-8
 
-# In[ ]:
+# In[3]:
 
-from .chain import Chain, this, _X
-from .magic import magical
-from . import callables
+from magical.magic import magical
+from magical.recipes import (
+    register_jinja2_magic,
+    register_mistune_magic,
+    register_yaml_magic
+)
 
-__version__ = "0.0.16"
+__version__ = "0.0.1"
+
+magical
 
 __all__ = [
-    'magical', 'this', 'callables', '_X', 'Chain',
+    'magical', 'register_jinja2_magic',
+    'register_mistune_magic', 'register_yaml_magic',
 ]
