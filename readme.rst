@@ -2,7 +2,7 @@
 ``magical-magic``
 =================
 
-Dead simple ``IPython`` magics.
+Dead simple reusable ``IPython`` magics.
 
 Installation
 ------------
