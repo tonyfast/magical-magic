@@ -2,3 +2,4 @@ IPython
 jinja2
 mistune
 pyyaml
+toolz
